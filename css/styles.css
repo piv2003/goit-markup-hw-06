@@ -533,6 +533,74 @@ img {
   fill: currentColor;
 }
 
+.footer-form {
+  margin-left: auto;
+}
+
+.footer-form-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--basic-white);
+  margin-bottom: 20px;
+}
+
+.footer-form-register {
+  display: flex;
+}
+
+.footer-form-field {
+  width: 358px;
+  height: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: var(--basic-white);
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  transition: border var(--timing-function);
+}
+
+.footer-form-field:focus {
+  border: 1px solid var(--basic-blue);
+}
+
+.footer-form-field::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(20/16);
+  color: var(--basic-gray);
+}
+
+.footer-form-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  margin-left: 12px;
+  background: var(--basic-blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-button-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30/16);
+  letter-spacing: 0.06em;
+  color: var(--basic-white);
+}
+
+.footer-icon-send {
+  fill: var(--basic-white);
+  margin-left: 10px;
+}
+
+
 /*****PORTFOLIO start*****/
 .portfolio-buttons-list,
 .portfolio-list {
