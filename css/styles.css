@@ -11,6 +11,7 @@
   --text-lightgray-color: #757575;
   --background-our-team: #f5f4fa;
   --background-backdrop: rgba(0, 0, 0, 0.2);
+  --background-btn-close: rgba(0, 0, 0, 0.1);
   --secondary-accent-color: #188CE8;
   --social-icons-grey: #AFB1B8;
   --our-business-text: rgba(47, 48, 58, 0.8);
@@ -533,6 +534,7 @@ img {
   fill: currentColor;
 }
 
+/*** footer-form-subscribe ***/
 .footer-form {
   margin-left: auto;
 }
@@ -544,7 +546,7 @@ img {
   margin-bottom: 20px;
 }
 
-.footer-form-register {
+.footer-form-registration {
   display: flex;
 }
 
@@ -773,17 +775,22 @@ img {
 .close-btn {
   position: absolute;
   display: flex;
-  align-items: center;
   justify-content: center;
-  right: 8px;
-  top: 8px;
-  background-color: transparent;
+  align-items: center;
+  top: 0;
+  right: 0;
+  margin-top: 8px;
+  margin-right: 8px;
   width: 30px;
   height: 30px;
-  border: 1px solid var(--text-black-full);
-  border-radius: 5px;
+  padding: 0;
+  background-color: var(--basic-white);
+  border: 1px solid var(--background-btn-close);
+  border-radius: 50%;
+  transition: fill var(--timing-function);
 }
 
 .close-btn:hover {
   cursor: pointer;
+  fill: var(--basic-blue);
 }
