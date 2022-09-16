@@ -878,8 +878,8 @@ img {
   transition: border var(--timing-function);
 }
 
-.modal-form-textarea :hover,
-.modal-form-textarea :focus {
+.modal-form-textarea:hover,
+.modal-form-textarea:focus {
   border: 1px solid var(--basic-blue);
 }
 
