@@ -901,8 +901,6 @@ img {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 16px;
-  height: 15px;
   outline: 2px solid var(--text-black-color);
   outline-offset: -2px;
   border-radius: 2px;
