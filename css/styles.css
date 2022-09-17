@@ -779,10 +779,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 0;
-  right: 0;
-  margin-top: 8px;
-  margin-right: 8px;
+  top: 8px;
+  right: 8px;
   width: 30px;
   height: 30px;
   padding: 0;
